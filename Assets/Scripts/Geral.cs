@@ -24,15 +24,17 @@ public class NewBehaviourScript : MonoBehaviour
     //>= (Maior igual)
 
 
-    [SerializeField] int vidaHeroi = 100;
-    [SerializeField] int vidaVilao = 300;
-    string resultado;
+    //[SerializeField] int vidaHeroi = 100;
+    //[SerializeField] int vidaVilao = 300;
+    //string resultado;
+
+    [SerializeField] int estadoVilao = 1;
 
     void Start()
     {
-        print(vidaVilao == vidaHeroi); //false
-        print(vidaHeroi <= vidaVilao); //true
-        print(vidaVilao != vidaHeroi); //true
+        //print(vidaVilao == vidaHeroi); //false
+        //print(vidaHeroi <= vidaVilao); //true
+        //print(vidaVilao != vidaHeroi); //true
 
         //Operador ternário
         // codição ? valor a ser atribuido caso verdadeiro : caso falso 
@@ -41,22 +43,52 @@ public class NewBehaviourScript : MonoBehaviour
         //print(resultado);
 
         //Estrutura condicional
-        if (vidaHeroi < vidaVilao)
+        //if (vidaheroi < vidavilao)
+        //{
+        //    resultado = "vida heroi menor";
+        //    print(resultado);
+
+        //}
+        //else if (vidaheroi == vidavilao)
+        //{
+
+        //    resultado = "vida heroi maior";
+        //    print(resultado);
+
+
+
+
+        //}
+
+        //estado01: vilão ataca
+        //estado02: vilão defende
+        //estado03: vilão toma dano
+
+        switch (estadoVilao)
         {
-            resultado = "Vida Heroi Menor";
-            print(resultado);
+            case 1:
+                print("Vilão atacando");
+                if (true)
+                {
+                    print("Danoo");
+                }
+                break;
+
+            case 2:
+                print("Vilão defende");
+                break;
+
+            case 3:
+                print("Vilão tomando um coro");
+                break;
+
+            default:
+                print("Valor não identificado");
+                break;  
+                
 
         }
-        else if (vidaHeroi == vidaVilao)
-        {
 
-            resultado = "Vida Heroi Maior";
-            print(resultado);
-
-
-
-
-        }
     }
     void Update()
     {

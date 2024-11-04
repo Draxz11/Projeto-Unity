@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Exercicio2 : MonoBehaviour
 {
+
+    //2. (Detecção de power-up) Ao coletar um power-up, o
+    //personagem aumenta sua velocidade.Se o jogador encontrar um
+    //power-up, exiba "Power-up Coletado". Caso contrário, exiba
+    //"Nenhum power-up encontrado".
+
     [SerializeField] bool powerUp;//true
     // ! > Invertendo o valor
 
@@ -18,13 +24,13 @@ public class Exercicio2 : MonoBehaviour
             print("Nenhum power-up encontrado");
         }
         //condição ? Caso verdade : Caso falso
-        
-        print(powerUp  ? "Power-Up coletado!" : "Nenhum power-up coletado");
+
+        print(powerUp ? "Power-Up coletado!" : "Nenhum power-up coletado");
 
     }
 
     void Update()
     {
-        
+
     }
 }
