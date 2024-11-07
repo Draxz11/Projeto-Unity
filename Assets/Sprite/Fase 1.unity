@@ -654,6 +654,14 @@ GameObject:
   - component: {fileID: 536595658}
   - component: {fileID: 536595660}
   - component: {fileID: 536595661}
+  - component: {fileID: 536595662}
+  - component: {fileID: 536595663}
+  - component: {fileID: 536595664}
+  - component: {fileID: 536595665}
+  - component: {fileID: 536595666}
+  - component: {fileID: 536595667}
+  - component: {fileID: 536595668}
+  - component: {fileID: 536595669}
   m_Layer: 0
   m_Name: Characters_MV_3
   m_TagString: Untagged
@@ -800,6 +808,113 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &536595662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575192ecb0aa30c4f995bbc01fe1caca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaHeroi: 0
+--- !u!114 &536595663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9480c7fbdddb3804e845e6801705f3cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUp: 0
+--- !u!114 &536595664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6291fd28ca732443b9852cfda32afc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerVivo: 0
+  powerUp: 1
+--- !u!114 &536595665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178d4300a94363a4e87198a736cc7a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Po\xE7\xE3odeVida": 0
+--- !u!114 &536595666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2090206324f1277409bfc68a0092065e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pontos: 49
+--- !u!114 &536595667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74bc94eba85fffc478490789c562d8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Guerreiro: 0
+--- !u!114 &536595668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c281865be2e61478e418d8d09106cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nLados: 2
+--- !u!114 &536595669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca0f50cc44c3045aed470d3b781295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segundos: 0
+  hora: 0
+  dia: 0
 --- !u!1 &558342697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd675b6ea580b24c992d0bd1020143c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  estadoVilao: 1
 --- !u!1 &1059583106
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,8 @@ public class Exercicio4 : MonoBehaviour
 
     void Start()
     {
+        //condição ? caso verdade : caso falso
+
         if (PoçãodeVida == true)
         {
             print("Usando Poção de Vida");
