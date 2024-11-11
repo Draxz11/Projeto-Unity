@@ -662,6 +662,9 @@ GameObject:
   - component: {fileID: 536595667}
   - component: {fileID: 536595668}
   - component: {fileID: 536595669}
+  - component: {fileID: 536595670}
+  - component: {fileID: 536595671}
+  - component: {fileID: 536595672}
   m_Layer: 0
   m_Name: Characters_MV_3
   m_TagString: Untagged
@@ -907,14 +910,57 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536595656}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7aca0f50cc44c3045aed470d3b781295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dias: 0
+  horas: 0
   segundos: 0
-  hora: 0
-  dia: 0
+--- !u!114 &536595670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7aac7e2ee5b6d4894030955683c697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placarTimeA: 0
+  placarTimeB: 0
+--- !u!114 &536595671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7141296bcf1ae1244bd976c69a07c60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoItem: Escudo
+  moeda: 10
+  escudo: 0
+  pocaoVida: 0
+--- !u!114 &536595672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536595656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77ac252923f3a241ac6362bac2cb936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estado: 5
 --- !u!1 &558342697
 GameObject:
   m_ObjectHideFlags: 0
