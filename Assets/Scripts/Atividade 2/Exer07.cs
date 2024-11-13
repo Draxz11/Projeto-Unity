@@ -8,7 +8,7 @@ public class Exer07 : MonoBehaviour
     //encontre o maior valor.
     
    
-    int[] numeros = { 3, 5, n, 7, 10, 68, 23, 71, 18, 97};
+    int[] numeros = { 3, 5, 45, 7, 10, 68, 23, 71, 18, 97};
     int maior;
 
     void Start()

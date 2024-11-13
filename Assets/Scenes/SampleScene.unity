@@ -1998,6 +1998,9 @@ GameObject:
   - component: {fileID: 939740957}
   - component: {fileID: 939740956}
   - component: {fileID: 939740955}
+  - component: {fileID: 939740960}
+  - component: {fileID: 939740959}
+  - component: {fileID: 939740961}
   m_Layer: 0
   m_Name: Player_10
   m_TagString: Untagged
@@ -2084,7 +2087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f33c0222eea5f4295e6b1ecce23d21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dificuldadeFase: 0
 --- !u!114 &939740951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2097,7 +2099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaf8205bffd9924eade8a92f87a4519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combo: 0
 --- !u!114 &939740952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,7 +2135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8d194844a29a74d8e8c5a293cb68de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num: 1
 --- !u!114 &939740955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939740944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef30e1b64f0aa194985d6e9550a68e4d, type: 3}
   m_Name: 
@@ -2186,6 +2186,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6053f8be064387f4f9e34540b1df871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &939740959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939740944}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ebbf3fbdabe5e5428317b0466a7ed78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &939740960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939740944}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ead3e968687be243b19c17a37a35695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificuldade: 0
+--- !u!114 &939740961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939740944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcce6b6c11ca7c4439b3e088a84e1d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: Jogos digitais
+  contadorConsoantes: 0
 --- !u!1 &985312900
 GameObject:
   m_ObjectHideFlags: 0
