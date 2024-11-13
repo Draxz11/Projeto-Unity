@@ -16,7 +16,7 @@ public class Desafio01 : MonoBehaviour
         {
             char letra = texto[i];
 
-            if ("bcdfghjklmnpqrstvwxyz".Contains(char.ToLower(letra)) || "bcdfghjklmnpqrstvwxyz".ToUpper().Contains(letra) )
+            if ("bcdfghjklmnpqrstvwxyz".Contains(Char.ToLower(letra)) || "bcdfghjklmnpqrstvwxyz".ToUpper().Contains(letra) )
             {
                 contadorConsoantes++;
             }
